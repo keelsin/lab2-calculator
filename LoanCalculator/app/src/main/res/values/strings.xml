@@ -10,7 +10,7 @@
     <string name="monthPay">Monthly Payment</string>
     <string name="totalPay">Total Payment</string>
     <string name="totalInterest">Total Interest</string>
-    <string name="loanAmountHint">5000</string>
+    <string name="loanAmountHint">50000</string>
     <string name="termLoanHint">7</string>
     <string name="yearlyRateHint">7.5</string>
     <string name="monthPayHint">766.91</string>
