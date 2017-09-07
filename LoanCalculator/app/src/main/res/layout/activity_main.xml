@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="@string/loanAmountHint"/>
+            android:hint="@string/loanAmountHint"/>
     </LinearLayout>
 
     <LinearLayout
@@ -50,8 +50,8 @@
             android:id="@+id/termLoanInsert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="@string/termLoanHint"/>
+            android:layout_weight="2"
+            android:hint="@string/termLoanHint"/>
     </LinearLayout>
 
     <LinearLayout
@@ -70,8 +70,8 @@
             android:id="@+id/yearInterestInsert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="@string/yearlyRateHint"/>
+            android:layout_weight="2"
+            android:hint="@string/yearlyRateHint"/>
     </LinearLayout>
 
     <LinearLayout
@@ -127,13 +127,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:text="@string/totalPay"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2.3"
+            android:layout_weight="2"
             android:text="@string/totalPayHint"/>
 
     </LinearLayout>
@@ -146,13 +146,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:text="@string/totalInterest"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2.3"
+            android:layout_weight="2"
             android:text="@string/totalInterestHint"/>
 
     </LinearLayout>
