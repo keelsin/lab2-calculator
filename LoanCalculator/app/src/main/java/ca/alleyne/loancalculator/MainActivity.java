@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         else
             monthlyPayment = 0;
         monthResult.setText(Double.toString(monthlyPayment));
-        totalResult.setText(Double.toString(monthlyPayment * numberOfYears));
+        totalResult.setText(Double.toString(monthlyPayment * numberOfYears * 12));
+        interestResult.setText(Double.toString((monthlyPayment * numberOfYears * 12) - loanAmount));
     }
 }
